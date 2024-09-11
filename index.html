@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Kids Zone - Home</title> 
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"> </div>
+        <h1 ><i class="fa-solid fa-house"></i>home</h1>
+        <a class="manu" href="contact.html"><i class="fa-solid fa-address-book"></i>contact us</a>
+        <a class="manu" href="about.html"><i class="fa-solid fa-address-card"></i>about</a>
+        <a class="manu" href="cart.html"><i class="fa-solid fa-cart-shopping"></i>Cart</a>
+        
+        
+    </header>
+
+    <main>
+        <div class="hh"></div>
+        <div class="kids_photo">
+            <div class="photo1 ii"></div>
+            <div class="photo2 ii"></div>
+            <div class="photo3 ii"></div>
+        </div>
+        <div>
+        <div class="toys">
+            <div class="toy" data-name="Toy Car" data-price="10">
+                <div class="toycar tt"></div>
+                <h3>Toy Car</h3>
+                <p>Price: $10</p>
+                <button onclick="addToCart('doll', 10)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="Doll" data-price="15">
+                <div class="doll tt"></div>
+                <h3>Doll</h3>
+                <p>Price: $15</p>
+                <button onclick="addToCart('Doll', 15)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="Lego Set" data-price="20">
+                <div class="lego-set tt"></div>
+                <h3>Lego Set</h3>
+                <p>Price: $20</p>
+                <button onclick="addToCart('Lego Set', 20)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="study toy " data-price="5">
+                <div class="study-toy tt"></div>
+            <h3>study toy</h3>
+            <p>Price: $5</p>
+            <button onclick="addToCart('study-toy', 5)">Add to Cart</button>
+        </div>
+       </div>
+
+
+        <div class="toys-2">
+            <div class="toy" data-name="soft-toy" data-price="100">
+                <div class="soft-toy tt"></div>
+                <h3>soft-toy</h3>
+                <p>Price: $100</p>
+                <button onclick="addToCart('soft-toy', 100)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="plastic-toy" data-price="105">
+                <div class="plastic-toy tt"></div>
+                <h3>plastic-toy</h3>
+                <p>Price: $105</p>
+                <button onclick="addToCart('plastic-toy', 105)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="wooden-toy" data-price="200">
+                <div class="wooden-toy tt"></div>
+                <h3>wooden-toy</h3>
+                <p>Price: $200</p>
+                <button onclick="addToCart('wooden-toy', 200)">Add to Cart</button>
+            </div>
+            <div class="toy" data-name="robo-toy" data-price="45">
+                <div class="robo-toy tt"></div>
+            <h3>robo-toy</h3>
+            <p>Price: $45</p>
+            <button onclick="addToCart('robo-toy', 45)">Add to Cart</button>
+            </div>
+        </div>
+        
+        
+    </main>
+
+    <script src="script.js"></script>
+    <footer>
+        <div class="foot-1">
+        <div class="foot-up">
+            <a class="ff" href="contact.html"><i class="fa-brands fa-instagram"></i></a>
+            <a class="ff" href="contact.html"><i class="fa-brands fa-facebook"></i></a>
+            <a class="ff" href="contact.html"><i class="fa-brands fa-twitter"></i></a>
+            <a class="ff" href="contact.html"><i class="fa-brands fa-youtube"></i></a>
+
+        </div>
+        </div>
+        <div class="foot-down"><p>© 1996-2024, kidszone.com, Inc. or its affiliates</p></div>
+    </footer>
+</body>
+</html>
